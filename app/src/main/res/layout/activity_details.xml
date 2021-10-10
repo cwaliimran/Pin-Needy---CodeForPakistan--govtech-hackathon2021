@@ -69,6 +69,21 @@
                 android:text="@{data.address}"
                 android:textColor="@color/gray_dark"
                 android:textSize="14sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/needs"
+                android:textColor="@color/primary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@{data.notes}"
+                android:textColor="@color/gray_dark"
+                android:textSize="14sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

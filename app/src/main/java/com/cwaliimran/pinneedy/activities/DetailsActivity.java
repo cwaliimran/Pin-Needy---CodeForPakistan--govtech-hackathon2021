@@ -21,7 +21,7 @@ public class DetailsActivity extends BaseActivity {
         binding = ActivityDetailsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Store details");
+        getSupportActionBar().setTitle("Needy details");
         context = this;
         bundle = getIntent().getExtras();
         if (bundle != null) {
