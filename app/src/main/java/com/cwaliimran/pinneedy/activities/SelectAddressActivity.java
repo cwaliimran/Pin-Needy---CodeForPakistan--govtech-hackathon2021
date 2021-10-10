@@ -183,7 +183,7 @@ public class SelectAddressActivity extends BaseActivity implements OnMapReadyCal
                 binding.btnSelect.setVisibility(View.VISIBLE);
                 binding.tvAddress.setText(String.format("%s", addressA));
                 lati = address.getLatitude();
-                longi = address.getLatitude();
+                longi = address.getLongitude();
                 Log.d(TAG, "searchLocation: lati: " + address.getLatitude());
                 Log.d(TAG, "searchLocation: longi: " + address.getLongitude());
 
