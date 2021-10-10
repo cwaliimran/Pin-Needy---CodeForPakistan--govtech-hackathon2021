@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/editText"
+            android:background="@drawable/btn_rounded"
+            android:hint="@string/email_"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/et_padding"
+            android:paddingEnd="@dimen/et_padding" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_rounded"
+            android:backgroundTint="@color/gray"
+            app:hintEnabled="false"
+            app:passwordToggleDrawable="@drawable/et_icon_show_password"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                style="@style/editText"
+                android:background="@null"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="8dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="btnClick"
+            android:tag="fPass"
+            android:text="@string/forgot_password"
+            android:textColor="@color/red" />
+
+        <Button
+            style="@style/buttons"
+            android:onClick="btnClick"
+            android:tag="login"
+            android:text="@string/login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:onClick="btnClick"
+            android:tag="signup"
+            android:textSize="16sp"
+            android:text="@string/signup"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar" />
+</RelativeLayout>

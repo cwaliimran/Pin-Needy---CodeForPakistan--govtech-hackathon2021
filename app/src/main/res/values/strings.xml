@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Pin Needy</string>
+    <string name="email_">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="signup">Sign up</string>
+    <string name="send_link">Send reset link</string>
+    <string name="comments">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="out_support_team">Our support team will reach you on registered email address.</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="needy_name">Needy person name</string>
+    <string name="state">State</string>
+    <string name="phone_number">Phone number (you can add your if available)</string>
+    <string name="address">Address</string>
+    <string name="notes_comments"> Notes/Comments/Needs e.g Winter clothes</string>
+    <string name="map_key">AIzaSyCMtKB4zdw-TfKvYIhQf1YOXkvfr2v5e44</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="dash">---</string>
+    <string name="phone">Phone</string>
+    <string name="navigate_to_needy">Navigate to needy</string>
+    <string name="recent_reviews">Recent reviews</string>
+    <string name="add_review">Add Review</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="title_activity_home">Map</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search">Search</string>
+    <string name="reject_massage"><![CDATA[If you reject permission, you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]]]></string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="share_app">Share app</string>
+    <string name="logout">Logout</string>
+    <string name="search_location">Search Location</string>
+    <string name="add_needy">Add Needy for Help</string>
+    <string name="my_posted_needies">My Posted Needies</string>
+    <string name="our_goal">Our Goal</string>
+    <string name="our_goals">1. Help the poors in new way\n
+    2. People have different things to donate but they can not find person to whom they can donate\n
+        3. We have made a platform where anyone can PIN the location of needy and add their needs\n
+        4. So when you have something to donate you just check the app before going out if someone is on your way you just gave that donation to them on the way\n
+        5. If you do not have time we are giving a feature which allows you to add goods and needy will find you (Pending)\n
+        6. Now the problem is needy does not have mobile phone - The solution for this is => That if some other person who is using app and want to help out poors but he does not have anything to donte (Still he can help the poors) He will just pick up the donation for
+        the DONOR location (home/office/shop) and then will find the needy on map and will deliver to him.\n
+        7. There will be two icons on home screen (Map) for now there are only needies => We will add another icons which show the DONORS and their listed items for donation\n
+        8. Anyone can pick from them and donate to poors near them.
+        9. You can add the reviews about needies so other people can see if they are already helped out.
+        10. Users are able to delete donation products if they are picked up or donated.
+
+    </string>
+    <string name="future_goals">Future goals</string>
+    <string name="future_goals_donation">In future we will add monthly base reminder and donation - so you can pay poor children fees or can gave them something to eat to wear or any other help on monthly basis.
+    \n We will propose monthly budget plans for families so DONORS can easily donate to them.
+    </string>
+</resources>

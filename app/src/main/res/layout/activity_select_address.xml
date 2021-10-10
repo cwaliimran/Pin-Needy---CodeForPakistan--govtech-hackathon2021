@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SelectAddressActivity">
+
+    <RelativeLayout
+        android:id="@+id/llSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/editText"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/btnSearch"
+            android:background="@drawable/btn_rounded"
+            android:backgroundTint="@color/gray"
+            android:hint="@string/search_location"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            style="@style/buttonsSmall"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:onClick="searchLocation"
+            android:text="@string/search"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llSearch"
+        android:padding="10dp"
+        android:text="@string/dash"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvAddress"
+        tools:context=".activities.SelectAddressActivity" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        style="@style/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:onClick="searchLocation"
+        android:text="Select"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>

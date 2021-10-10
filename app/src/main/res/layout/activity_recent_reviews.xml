@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RecentReviewsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        style="@style/recyclerView"
+        tools:itemCount="5"
+        tools:listitem="@layout/row_recent_reviews" />
+
+    <include
+        android:id="@+id/noData"
+        layout="@layout/no_data_found_message" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar" />
+</RelativeLayout>

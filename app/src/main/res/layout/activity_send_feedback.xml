@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SendFeedbackActivity">
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/out_support_team" />
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_rounded"
+            android:backgroundTint="@color/gray"
+            android:drawablePadding="10dp"
+            android:gravity="top"
+            android:hint="@string/message"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/gray_dark" />
+
+
+        <Button
+            style="@style/buttons"
+            android:onClick="btnClick"
+            android:tag="send"
+            android:text="@string/send" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar" />
+</RelativeLayout>

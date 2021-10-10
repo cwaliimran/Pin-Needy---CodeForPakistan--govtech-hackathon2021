@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/btn_rounded"
+    android:backgroundTint="@color/white"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:maxLines="2"
+        android:text="@string/dash"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivStar"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/recent_reviews"
+        android:backgroundTint="@color/yellow" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivStar"
+        android:text="@string/dash"
+        android:textColor="@color/gray_dark"
+        android:textSize="12sp" />
+</RelativeLayout>

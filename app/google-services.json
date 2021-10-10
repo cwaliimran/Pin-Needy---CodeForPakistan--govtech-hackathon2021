@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371502142370",
+    "project_id": "pin-needy-codeforpakistan",
+    "storage_bucket": "pin-needy-codeforpakistan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371502142370:android:36b892e7a7747fb6c058fb",
+        "android_client_info": {
+          "package_name": "com.cwaliimran.pinneedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371502142370-bqa9nt1lsdl815cc877ll721o82vp677.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQJLutunbmyDlcJcFTZifoNJVoMUtcJPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371502142370-bqa9nt1lsdl815cc877ll721o82vp677.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
